@@ -1,0 +1,721 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2023-11-12 16:34+0800\n"
+"PO-Revision-Date: 2023-11-12 17:23+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ms_MY\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.1\n"
+"X-Poedit-Basepath: V:\n"
+"X-Poedit-KeywordsList: _;__;_e;_a;esc_html_e\n"
+"X-Poedit-SearchPath-0: admin\n"
+"X-Poedit-SearchPath-1: includes\n"
+"X-Poedit-SearchPath-2: layout\n"
+"X-Poedit-SearchPath-3: public\n"
+
+#: admin/biblio-add.php:21 admin/biblio-view.php:28
+msgid "Bibliographic Record"
+msgstr "Rekod Bibliografi"
+
+#: admin/biblio-add.php:29 admin/biblio-bulkupload.php:135
+#: admin/biblio-view.php:36 admin/circ-checkout.php:109
+#: admin/patron-view.php:134 public/transactions.php:41
+msgid "Title"
+msgstr "Tajuk"
+
+#: admin/biblio-add.php:36 admin/biblio-bulkupload.php:136
+#: admin/biblio-view.php:43
+msgid "Author"
+msgstr "Penulis"
+
+#: admin/biblio-add.php:43 admin/biblio-bulkupload.php:137
+#: admin/biblio-view.php:50
+msgid "Publisher"
+msgstr "Penerbit"
+
+#: admin/biblio-add.php:50 admin/biblio-view.php:57
+msgid "Call No."
+msgstr "Nombor Panggilan"
+
+#: admin/biblio-add.php:57 admin/biblio-bulkupload.php:139
+#: admin/biblio-view.php:64 admin/circ-checkout.php:121
+msgid "ISBN"
+msgstr "ISBN"
+
+#: admin/biblio-add.php:64 admin/biblio-view.php:71
+msgid "Restrict Check-Out"
+msgstr "Terhad untuk Pinjaman"
+
+#: admin/biblio-add.php:66 admin/biblio-view.php:73
+msgid "No Restriction"
+msgstr "Tidak Terhad"
+
+#: admin/biblio-add.php:67 admin/biblio-view.php:74
+msgid "Restrict from being Checked Out"
+msgstr "Terhad"
+
+#: admin/biblio-add.php:78 admin/patron-add.php:86
+msgid "Add"
+msgstr "Tambah"
+
+#: admin/biblio-add.php:82 admin/biblio-bulkupload.php:158
+#: admin/biblio-search.php:54 admin/biblio-view.php:105
+#: admin/biblio-view.php:195 admin/librarian-add.php:128
+#: admin/patron-add.php:90 admin/patron-bulkupload.php:105
+#: admin/patron-category-add.php:94 admin/patron-search.php:52
+#: admin/patron-view.php:115 admin/settings.php:185 public/catalogue.php:60
+msgid "Reset"
+msgstr "Set Semula"
+
+#: admin/biblio-add.php:158
+msgid "No Results Found"
+msgstr "Tiada Rekod Dijumpai"
+
+#: admin/biblio-bulkupload.php:111 admin/patron-bulkupload.php:67
+msgid "Select CSV file"
+msgstr "Pilih fail CSV"
+
+#: admin/biblio-bulkupload.php:115 admin/patron-bulkupload.php:71
+msgid "Process File"
+msgstr "Proses Fail"
+
+#: admin/biblio-bulkupload.php:116 admin/patron-bulkupload.php:72
+msgid "Download Template"
+msgstr "Muat Turun Templat"
+
+#: admin/biblio-bulkupload.php:134
+msgid "BiblioID"
+msgstr "ID Biblio"
+
+#: admin/biblio-bulkupload.php:138 admin/circ-checkout.php:115
+msgid "Call Number"
+msgstr "Nombor Panggilan"
+
+#: admin/biblio-bulkupload.php:140
+msgid "Restrict Check-out"
+msgstr "Terhad untuk Pinjaman"
+
+#: admin/biblio-bulkupload.php:141 admin/biblio-bulkupload.php:149
+#: admin/patron-bulkupload.php:96
+msgid "Status"
+msgstr "Status"
+
+#: admin/biblio-bulkupload.php:144 admin/biblio-bulkupload.php:290
+msgid "⮩"
+msgstr "⮩"
+
+#: admin/biblio-bulkupload.php:145
+msgid "BiblioItemID"
+msgstr "ID Item Biblio"
+
+#: admin/biblio-bulkupload.php:146 admin/biblio-view.php:161
+#: admin/patron-add.php:39 admin/patron-bulkupload.php:92
+#: admin/patron-view.php:48 public/transactions.php:40
+msgid "Barcode"
+msgstr "Kod Bar"
+
+#: admin/biblio-bulkupload.php:147 admin/biblio-view.php:168
+msgid "Location"
+msgstr "Lokasi"
+
+#: admin/biblio-bulkupload.php:148 admin/biblio-view.php:175
+msgid "Price"
+msgstr "Harga"
+
+#: admin/biblio-bulkupload.php:157 admin/patron-bulkupload.php:104
+msgid "Import Valid Records"
+msgstr "Import Rekod Sah"
+
+#: admin/biblio-bulkupload.php:216 admin/patron-bulkupload.php:163
+msgid "Please select a file."
+msgstr "Sila pilih fail."
+
+#: admin/biblio-bulkupload.php:223 admin/patron-bulkupload.php:170
+msgid "File invalid."
+msgstr "Fail tidak sah."
+
+#: admin/biblio-bulkupload.php:315 admin/patron-bulkupload.php:232
+msgid "$ valid records, $ invalid records, $ total records processed"
+msgstr "$ rekod sah, $ rekod tidak sah, $ jumlah rekod diproses"
+
+#: admin/biblio-search.php:30 admin/patron-search.php:28
+#: public/catalogue.php:36
+msgid "Search Parameters"
+msgstr "Parameter Carian"
+
+#: admin/biblio-search.php:39 admin/patron-search.php:37
+#: public/catalogue.php:45
+msgid "Keyword"
+msgstr "Kata Kunci"
+
+#: admin/biblio-search.php:50 admin/patron-search.php:48
+#: layout/admin-header.php:148 layout/admin-header.php:181
+#: public/catalogue.php:56
+msgid "Search"
+msgstr "Cari"
+
+#: admin/biblio-search.php:69 admin/patron-search.php:67
+#: public/catalogue.php:75
+msgid "Search Results"
+msgstr "Keputusan Carian"
+
+#: admin/biblio-search.php:77 admin/patron-search.php:75
+#: public/catalogue.php:83
+msgid "Too many results. Enter a more specific keyword."
+msgstr "Terlalu banyak rekod. Masukkan kata kunci yang lebih khusus."
+
+#: admin/biblio-search.php:95 admin/librarian-view.php:44
+#: admin/patron-category-view.php:48 admin/patron-search.php:89
+msgid "View"
+msgstr "Lihat"
+
+#: admin/biblio-search.php:100
+msgid "No Bibliographic Records Found"
+msgstr "Tiada Rekod Bibliografi yang dijumpai"
+
+#: admin/biblio-view.php:85
+msgid "Add Another Biblio Record"
+msgstr "Tambah Rekod Bibliografi Baharu"
+
+#: admin/biblio-view.php:89
+msgid "Edit Biblio Record"
+msgstr "Edit Rekod Biblio"
+
+#: admin/biblio-view.php:93
+msgid "Delete Biblio Record"
+msgstr "Padam Rekod Biblio"
+
+#: admin/biblio-view.php:101 admin/biblio-view.php:191
+#: admin/librarian-add.php:124 admin/patron-category-add.php:90
+#: admin/patron-view.php:111 admin/settings.php:159
+msgid "Save"
+msgstr "Simpan"
+
+#: admin/biblio-view.php:118 admin/circ-checkout.php:77
+msgid "Item Record"
+msgstr "Rekod Item"
+
+#: admin/biblio-view.php:139
+msgid "Edit"
+msgstr "Edit"
+
+#: admin/biblio-view.php:150 admin/biblio-view.php:186
+msgid "Add Item Record"
+msgstr "Tambah Rekod Item"
+
+#: admin/biblio-view.php:161 admin/patron-add.php:39
+msgid "Autonumber"
+msgstr "Nombor Auto"
+
+#: admin/biblio-view.php:212
+msgid "Biblio Record"
+msgstr "Rekod Biblio"
+
+#: admin/biblio-view.php:217 admin/changepassword.php:39 admin/index.php:21
+#: admin/patron-view.php:165 admin/reporting-mostcheckedoutbooks.php:24
+#: admin/reporting-mostcheckoutspatron.php:24 admin/reporting-overdue.php:24
+#: public/changepassword.php:39 public/index.php:21
+msgid "Error:"
+msgstr "Ralat:"
+
+#: admin/biblio-view.php:218
+msgid "Biblio Record Not Found"
+msgstr "Rekod Biblio tidak dijumpai"
+
+#: admin/changepassword.php:40 admin/index.php:22
+#: admin/reporting-mostcheckedoutbooks.php:25
+#: admin/reporting-mostcheckoutspatron.php:25 admin/reporting-overdue.php:25
+#: public/changepassword.php:40 public/index.php:22
+msgid "Insufficient Privileges"
+msgstr "Kebenaran tidak mencukupi"
+
+#: admin/changepassword.php:48 admin/changepassword.php:88
+#: layout/admin-header.php:272 layout/public-header.php:157
+#: public/changepassword.php:48 public/changepassword.php:88
+msgid "Change Password"
+msgstr "Tukar Kata Laluan"
+
+#: admin/changepassword.php:62 public/changepassword.php:62
+msgid "Current Password"
+msgstr "Kata Laluan Semasa"
+
+#: admin/changepassword.php:70 public/changepassword.php:70
+msgid "New Password"
+msgstr "Kata Laluan Baru"
+
+#: admin/changepassword.php:78 public/changepassword.php:78
+msgid "Confirm New Password"
+msgstr "Sahkan Kata Laluan Baru"
+
+#: admin/circ-checkin.php:25 admin/circ-renew.php:25
+msgid "Transaction Record"
+msgstr "Rekod Transaksi"
+
+#: admin/circ-checkin.php:34 admin/circ-checkout.php:94 admin/circ-renew.php:34
+msgid "Input or Scan Item Barcode"
+msgstr "Input atau Imbas Kod Bar Item"
+
+#: admin/circ-checkin.php:36 admin/circ-checkout.php:36
+#: admin/circ-checkout.php:96 admin/circ-renew.php:36
+msgid "Submit"
+msgstr "Hantar"
+
+#: admin/circ-checkin.php:49 admin/circ-renew.php:49
+#: admin/reporting-mostcheckedoutbooks.php:47 admin/reporting-overdue.php:45
+msgid "Biblio Title"
+msgstr "Tajuk Biblio"
+
+#: admin/circ-checkin.php:55 admin/circ-renew.php:55
+#: admin/reporting-mostcheckedoutbooks.php:50
+msgid "Biblio Call Number"
+msgstr "Nombor Panggilan Biblio"
+
+#: admin/circ-checkin.php:61 admin/circ-renew.php:61
+#: admin/reporting-mostcheckedoutbooks.php:51
+msgid "Biblio ISBN"
+msgstr "ISBN Biblio"
+
+#: admin/circ-checkin.php:67 admin/circ-renew.php:67
+#: admin/reporting-mostcheckoutspatron.php:48 admin/reporting-overdue.php:43
+msgid "Patron Name"
+msgstr "Nama Ahli"
+
+#: admin/circ-checkin.php:73 admin/circ-renew.php:73 admin/patron-view.php:135
+#: public/transactions.php:42
+msgid "Check Out Date"
+msgstr "Tarikh Pinjaman"
+
+#: admin/circ-checkin.php:79 admin/circ-renew.php:79 admin/patron-view.php:136
+msgid "Expected Check In Date"
+msgstr "Tarikh Jangkaan Pemulangan"
+
+#: admin/circ-checkin.php:85
+msgid "Today's Date"
+msgstr "Tarikh Hari Ini"
+
+#: admin/circ-checkin.php:104
+msgid "Check In"
+msgstr "Pemulangan"
+
+#: admin/circ-checkout.php:25 admin/patron-add.php:23 admin/patron-view.php:33
+#: admin/patron-view.php:160
+msgid "Patron Record"
+msgstr "Rekod Ahli"
+
+#: admin/circ-checkout.php:34
+msgid "Input or Scan Patron Barcode"
+msgstr "Input atau Imbas Kod Bar Ahli"
+
+#: admin/circ-checkout.php:49 admin/librarian-view.php:34
+#: admin/patron-add.php:32 admin/patron-bulkupload.php:91
+#: admin/patron-view.php:41
+msgid "Name"
+msgstr "Nama"
+
+#: admin/circ-checkout.php:55
+msgid "Available Quota"
+msgstr "Kuota Tersedia"
+
+#: admin/circ-checkout.php:84
+msgid "Please Select a Patron"
+msgstr "Sila pilih seorang ahli"
+
+#: admin/circ-checkout.php:127
+msgid "Return Date"
+msgstr "Tarikh Pemulangan"
+
+#: admin/circ-checkout.php:146
+msgid "Check Out"
+msgstr "Pinjaman"
+
+#: admin/circ-renew.php:85
+msgid "New Check In Date"
+msgstr "Tarikh Pemulangan Baharu"
+
+#: admin/circ-renew.php:91 admin/patron-view.php:138
+msgid "Renew Count"
+msgstr "Kiraan Pembaharuan"
+
+#: admin/circ-renew.php:110 public/transactions.php:105
+msgid "Renew"
+msgstr "Pembaharuan"
+
+#: admin/index.php:30 public/index.php:30
+msgid "Welcome"
+msgstr "Selamat datang"
+
+#: admin/index.php:34 public/index.php:34
+#, php-format
+msgid "Welcome to the %s Library Management System"
+msgstr "Selamat Datang ke Sistem Pengurusan Perpustakaan %s"
+
+#: admin/librarian-add.php:41
+msgid "Librarian Name"
+msgstr "Nama Pustakawan"
+
+#: admin/librarian-add.php:48 admin/librarian-view.php:35 public/login.php:66
+msgid "Username"
+msgstr "Nama Pengguna"
+
+#: admin/librarian-add.php:56 admin/patron-add.php:67
+#: admin/patron-bulkupload.php:95 admin/patron-view.php:76 public/login.php:74
+msgid "Password"
+msgstr "Kata Laluan"
+
+#: admin/librarian-add.php:57
+msgid "(leave blank if not changing)"
+msgstr "(kosongkan jika tidak tukar)"
+
+#: admin/librarian-add.php:65 admin/patron-add.php:74 admin/patron-view.php:83
+msgid "Confirm Password"
+msgstr "Sahkan Kata Laluan"
+
+#: admin/librarian-add.php:71
+msgid "Privileges"
+msgstr "Kebenaran"
+
+#: admin/librarian-add.php:101 admin/librarian-view.php:56
+msgid "Add Librarian"
+msgstr "Tambah Pustakawan"
+
+#: admin/librarian-add.php:107
+msgid "To prevent inadvertant self-lockout, you can't edit your own profile."
+msgstr ""
+"Untuk mengelakkan penguncian diri secara tidak sengaja, anda tidak boleh "
+"mengedit profil anda sendiri."
+
+#: admin/librarian-add.php:114
+msgid "Edit Librarian"
+msgstr "Edit Pustakawan"
+
+#: admin/librarian-add.php:118
+msgid "Delete Librarian"
+msgstr "Padam Pustakawan"
+
+#: admin/librarian-add.php:215
+msgid "Confirm delete?"
+msgstr "Sahkan padam?"
+
+#: admin/librarian-add.php:217
+msgid "Delete"
+msgstr "Padam"
+
+#: admin/librarian-add.php:218 public/transactions.php:106
+msgid "Cancel"
+msgstr "Batal"
+
+#: admin/librarian-view.php:33 admin/patron-bulkupload.php:90
+#: admin/patron-category-view.php:33
+msgid "ID"
+msgstr "ID"
+
+#: admin/patron-add.php:46 admin/patron-bulkupload.php:93
+#: admin/patron-view.php:55
+msgid "Contact"
+msgstr "Nombor Hubungan"
+
+#: admin/patron-add.php:53 admin/patron-bulkupload.php:94
+#: admin/patron-view.php:62
+msgid "Category"
+msgstr "Kategori"
+
+#: admin/patron-category-add.php:40 admin/patron-category-view.php:34
+msgid "Category Name"
+msgstr "Nama Kategori"
+
+#: admin/patron-category-add.php:47 admin/patron-category-view.php:35
+msgid "Item Check-out Days"
+msgstr "Hari Pinjaman"
+
+#: admin/patron-category-add.php:54 admin/patron-category-view.php:36
+msgid "Item Check-out Limit"
+msgstr "Had Pinjaman"
+
+#: admin/patron-category-add.php:61 admin/patron-category-view.php:37
+msgid "Item Renewal Limit"
+msgstr "Had Pembaharuan"
+
+#: admin/patron-category-add.php:74 admin/patron-category-view.php:60
+msgid "Add Patron Category"
+msgstr "Tambah Kategori Ahli"
+
+#: admin/patron-category-add.php:84
+msgid "Edit Patron Category"
+msgstr "Edit Kategori Ahli"
+
+#: admin/patron-search.php:94
+msgid "No Patron Records Found"
+msgstr "Tiada Rekod Ahli yang dijumpai"
+
+#: admin/patron-view.php:95
+msgid "Add Another Patron Record"
+msgstr "Tambah Rekod Ahli Baharu"
+
+#: admin/patron-view.php:99
+msgid "Edit Patron Record"
+msgstr "Edit Rekod Ahli"
+
+#: admin/patron-view.php:103
+msgid "Delete Patron Record"
+msgstr "Padam Rekod Ahli"
+
+#: admin/patron-view.php:128 layout/public-header.php:142
+msgid "Transactions"
+msgstr "Transaksi"
+
+#: admin/patron-view.php:137
+msgid "Actual Check In Date"
+msgstr "Tarikh Pemulangan Benar"
+
+#: admin/patron-view.php:166
+msgid "Patron Record Not Found"
+msgstr "Rekod Ahli tidak dijumpai"
+
+#: admin/reporting-mostcheckedoutbooks.php:38
+#: admin/reporting-mostcheckoutspatron.php:38
+msgid "Date Range:"
+msgstr "Julat Tarikh:"
+
+#: admin/reporting-mostcheckedoutbooks.php:48
+msgid "Biblio Author"
+msgstr "Penulis Biblio"
+
+#: admin/reporting-mostcheckedoutbooks.php:49
+msgid "Biblio Publisher"
+msgstr "Penerbit Biblio"
+
+#: admin/reporting-mostcheckedoutbooks.php:52
+#: admin/reporting-mostcheckoutspatron.php:51
+msgid "No. of Check-outs"
+msgstr "Jumlah Pinjaman"
+
+#: admin/reporting-mostcheckoutspatron.php:47 admin/reporting-overdue.php:42
+msgid "Patron Barcode"
+msgstr "Kod Bar Ahli"
+
+#: admin/reporting-mostcheckoutspatron.php:49 admin/reporting-overdue.php:44
+msgid "Patron Contact"
+msgstr "Nombor Hubungan Ahli"
+
+#: admin/reporting-mostcheckoutspatron.php:50
+msgid "Patron Category"
+msgstr "Kategori Ahli"
+
+#: admin/reporting-overdue.php:41
+msgid "Txn ID"
+msgstr "ID Txn"
+
+#: admin/reporting-overdue.php:46
+msgid "Item Barcode"
+msgstr "Kod Bar Item"
+
+#: admin/reporting-overdue.php:47
+msgid "Check-out Date"
+msgstr "Tarikh Pinjaman"
+
+#: admin/reporting-overdue.php:48
+msgid "Expected Check-in Date"
+msgstr "Tarikh Jangkaan Pemulangan"
+
+#: admin/reporting-overdue.php:49
+msgid "Overdue Days"
+msgstr "Hari Tertunggak"
+
+#: admin/settings.php:78
+msgid "Library Name"
+msgstr "Nama Perpustakaan"
+
+#: admin/settings.php:85
+msgid "Enter Library Name here..."
+msgstr "Masukkan Nama Perpustakaan di sini..."
+
+#: admin/settings.php:93
+msgid "Library Code"
+msgstr "Kod Perpustakaan"
+
+#: admin/settings.php:93
+msgid "(four-digit library code for Codabar barcode format)"
+msgstr "(kod empat digit untuk format kod bar Codabar)"
+
+#: admin/settings.php:100
+msgid "Enter four-digit Library Code here..."
+msgstr "Masukkan Kod Perpustakaan di sini..."
+
+#: admin/settings.php:109
+msgid "OPAC Settings"
+msgstr "Tetapan OPAC"
+
+#: admin/settings.php:120
+msgid "Enable OPAC access"
+msgstr "Dayakan akses OPAC"
+
+#: admin/settings.php:132
+msgid "Allow patrons to log into OPAC"
+msgstr "Benarkan ahli log masuk ke OPAC"
+
+#: admin/settings.php:144
+msgid "Allow patrons to self-renew transactions"
+msgstr "Benarkan ahli baharukan transaksi sendri"
+
+#: admin/settings.php:169
+msgid "API"
+msgstr "API"
+
+#: admin/settings.php:175
+msgid "API Key"
+msgstr "Kata Kunci API"
+
+#: layout/admin-header.php:65
+msgid "Library Mgmt System"
+msgstr "Sistem Pengurusan<br>Perpustakaan"
+
+#: layout/admin-header.php:66
+msgid "Librarian Portal"
+msgstr "Portal Pustakawan"
+
+#: layout/admin-header.php:79 layout/public-header.php:81
+#, php-format
+msgid "Welcome, %s."
+msgstr "Selamat datang, %s."
+
+#: layout/admin-header.php:95 layout/public-header.php:101
+msgid "Home"
+msgstr "Laman Utama"
+
+#: layout/admin-header.php:107
+msgid "Circulation"
+msgstr "Peredaran"
+
+#: layout/admin-header.php:115
+msgid "Check Out Item"
+msgstr "Pinjaman"
+
+#: layout/admin-header.php:121
+msgid "Check In Item"
+msgstr "Pemulangan"
+
+#: layout/admin-header.php:127
+msgid "Renew Item"
+msgstr "Pembaharuan"
+
+#: layout/admin-header.php:140
+msgid "Cataloguing"
+msgstr "Pengkatalogan"
+
+#: layout/admin-header.php:154 layout/admin-header.php:187
+msgid "Add New"
+msgstr "Tambah Baharu"
+
+#: layout/admin-header.php:160 layout/admin-header.php:193
+msgid "Bulk Upload"
+msgstr "Muat Naik Pukal"
+
+#: layout/admin-header.php:173
+msgid "Patrons"
+msgstr "Perahlian"
+
+#: layout/admin-header.php:199
+msgid "Manage Categories"
+msgstr "Uruskan Kategori Ahli"
+
+#: layout/admin-header.php:212
+msgid "Reporting"
+msgstr "Pelaporan"
+
+#: layout/admin-header.php:220
+msgid "Overdue Books"
+msgstr "Buku Tertunggak"
+
+#: layout/admin-header.php:226
+msgid "Most C/o Books"
+msgstr "Buku Pinjaman Terbanyak"
+
+#: layout/admin-header.php:232
+msgid "Most C/o Patron"
+msgstr "Ahli Pinjaman Terbanyak"
+
+#: layout/admin-header.php:245
+msgid "Administration"
+msgstr "Pentadbiran"
+
+#: layout/admin-header.php:253
+msgid "Librarian Mgmt"
+msgstr "Pustakawan"
+
+#: layout/admin-header.php:259
+msgid "Settings"
+msgstr "Tetapan"
+
+#: layout/admin-header.php:284 layout/public-header.php:172
+msgid "Logout"
+msgstr "Log Keluar"
+
+#: layout/public-header.php:84
+msgid "Welcome, Guest."
+msgstr "Selamat datang, tetamu."
+
+#: layout/public-header.php:113
+msgid "Catalogue"
+msgstr "Katalog"
+
+#: layout/public-header.php:127
+msgid "Patron Login"
+msgstr "Log Masuk Ahli"
+
+#: public/catalogue.php:105
+msgid "Restricted"
+msgstr "Terhad"
+
+#: public/catalogue.php:126
+msgid "No Biblio Records Found"
+msgstr "Tiada Rekod Biblio yang dijumpai"
+
+#: public/login.php:60
+msgid "Log in as <b>Patron</b>"
+msgstr "Log Masuk sebagai <b>Ahli</b>"
+
+#: public/login.php:83
+msgid "Log In"
+msgstr "Log Masuk"
+
+#: public/transactions.php:43
+msgid "Due Date"
+msgstr "Tarikh Akhir"
+
+#: public/transactions.php:44
+msgid "Check In Date"
+msgstr "Tarikh Pemulangan"
+
+#: public/transactions.php:56
+msgid "Overdue!"
+msgstr "Tertunggak!"
+
+#: public/transactions.php:67
+#, php-format
+msgid "Renew (%s/%s)"
+msgstr "Baharukan (%s/%s)"
+
+#: public/transactions.php:92
+msgid "Error"
+msgstr "Ralat"
+
+#: public/transactions.php:93
+msgid "Renewal Limit Reached"
+msgstr "Had Pembaharuan Tercapai"
+
+#: public/transactions.php:102
+msgid "Confirm renewal?"
+msgstr "Sahkan pembaharuan?"
+
+#: public/transactions.php:103
+#, php-format
+msgid "The due date will be extended until %s."
+msgstr "Tarikh akhir dilanjutkan sehingga %s."
+
+#: public/transactions.php:128
+msgid "The due date has been extended until "
+msgstr "Tarikh akhir dilanjutkan sehingga "

@@ -1,0 +1,5 @@
+﻿BiblioID,Title,Author,Publisher,CallNo,ISBN,RestrictCheckOut,BiblioItemID,Barcode,Location,Price
+<<New>>,Example Book,Example Author,Example Publisher,Example Call No,Example ISBN,0,<<New>>,<<New>>,Example Location,Example Price
+,,,,,,,<<New>>,<<New>>,Example Location,Example Price
+<<New>>,Example Book,Example Author,Example Publisher,Example Call No,Example ISBN,0,<<New>>,<<New>>,Example Location,Example Price
+,,,,,,,<<New>>,<<New>>,Example Location,Example Price

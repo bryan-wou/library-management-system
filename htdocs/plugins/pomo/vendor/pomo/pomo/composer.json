@@ -1,0 +1,58 @@
+{
+  "name": "pomo/pomo",
+  "type": "library",
+  "description": "Gettext library to translate with i18n",
+  "keywords": [
+    "gettext",
+    "translation",
+    "localization",
+    "internationalization",
+    "i18n"
+  ],
+  "homepage": "https://github.com/LeoColomb/pomo",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "WordPress",
+      "homepage": "https://wordpress.org",
+      "role": "Author"
+    },
+    {
+      "name": "Léo Colombaro",
+      "homepage": "https://colombaro.fr",
+      "role": "Maintainer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0 || ^7.0",
+    "squizlabs/php_codesniffer": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "POMO\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "POMO\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "analysis": [
+      "phpcs",
+      "phpstan analyse src tests --level 1"
+    ],
+    "test": [
+      "phpunit"
+    ],
+    "format": [
+      "phpcbf"
+    ]
+  },
+  "support": {
+    "issues": "https://github.com/LeoColomb/pomo/issues"
+  }
+}

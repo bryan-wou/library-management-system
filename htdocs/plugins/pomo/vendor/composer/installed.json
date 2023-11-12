@@ -1,0 +1,77 @@
+{
+    "packages": [
+        {
+            "name": "pomo/pomo",
+            "version": "v1.5.0",
+            "version_normalized": "1.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/LeoColomb/pomo.git",
+                "reference": "b1e53a997850496369634d574fa6b508091fc353"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/LeoColomb/pomo/zipball/b1e53a997850496369634d574fa6b508091fc353",
+                "reference": "b1e53a997850496369634d574fa6b508091fc353",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^7.0",
+                "squizlabs/php_codesniffer": "^3.0"
+            },
+            "time": "2023-01-06T01:05:43+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "POMO\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress",
+                    "homepage": "https://wordpress.org",
+                    "role": "Author"
+                },
+                {
+                    "name": "Léo Colombaro",
+                    "homepage": "https://colombaro.fr",
+                    "role": "Maintainer"
+                }
+            ],
+            "description": "Gettext library to translate with i18n",
+            "homepage": "https://github.com/LeoColomb/pomo",
+            "keywords": [
+                "gettext",
+                "i18n",
+                "internationalization",
+                "localization",
+                "translation"
+            ],
+            "support": {
+                "issues": "https://github.com/LeoColomb/pomo/issues",
+                "source": "https://github.com/LeoColomb/pomo/tree/v1.5.0"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/LeoColomb",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/LeoColomb",
+                    "type": "patreon"
+                }
+            ],
+            "install-path": "../pomo/pomo"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
